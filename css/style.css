@@ -10,6 +10,24 @@
 
 /* ABOUT style */
 
+.about-conteiner-row{  
+    display: flex;
+    flex-wrap: wrap;
+}
+.title-h2{
+  text-align: center;  
+  font-size: 3.1rem;
+  font-weight: 300;
+  color: #3695FF;  
+  padding-top: 3.75rem; 
+  padding-bottom: 3.75rem;
+}
+.about-paragraph{
+  font-size: 1rem;  
+  color: #55130255; 
+  text-align: center;
+}
+
 /* EXPERT style */
 
 .expert {
@@ -75,4 +93,40 @@
 
 /* CLIENTS style */
 
+.clients-conteiner {
+    padding-bottom: 6rem;
+    background-color:#F1F8FF
+}
+
+.clients-conteiner-in {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.row-client {
+    flex-direction: row;
+}
+
+.col {
+    padding-right: 4.2rem;
+}
 /* FOOTER style */
+
+.page-footer-container {
+    background: linear-gradient(45deg, rgba(55,150,255,1) 10%, rgba(70,160,255,1) 25%, rgba(65,140,255,1) 55%, rgba(55,130,255,1) 70%, rgba(55,120,255,1) 100%); 
+    justify-content: center; 
+}
+
+.col-page-footer--1 {
+    font-size: 3.1rem;
+    font-weight: 300;
+    color:#ffffff;
+}
+
+.col-page-footer--2 {
+    font-size: 3.1rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
