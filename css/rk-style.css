@@ -1,0 +1,81 @@
+/* style for SAME elements (button, wrapper...) */
+
+
+
+/* HEADER style */
+.cookie-text {
+    font-size: .85rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.cookie-btn {
+    display: flex;
+    padding: .5rem 0rem;
+    border-radius: 50%;
+}
+
+.cookie-btn--text {
+    font-size: .75rem;
+    font-weight: 700;
+    color:  rgb(25, 65, 120);
+    color:  rgb(25, 65, 120);
+    padding: 0rem 1rem;
+}
+
+.cookie-panel--color {
+    background-color: rgb(25, 65, 120);
+}
+
+.title--color {
+    background: rgb(55,150,255);
+    background: linear-gradient(45deg, rgba(55,130,255,1) 10%, rgba(70,160,255,1) 25%, rgba(65,140,255,1) 55%, rgba(55,130,255,1) 70%, rgba(55,130,255,1) 100%);
+}
+
+.title-h1 {
+    display: flex;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    padding: 1rem 0rem;
+    line-height: 1.2;
+}
+
+.title-p {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    padding: 1rem 0rem;
+    line-height: 2.5;
+}
+
+.title-btn {
+    display: flex;
+    font-size: .75rem;
+    font-weight: 700;
+    color:  rgb(25, 65, 120);
+    padding: .5rem 2rem;
+}
+
+.title-portret {
+    padding: 4rem 0rem;
+    opacity: .7;
+}
+
+
+/* ABOUT style */
+
+/* EXPERT style */
+
+/* WORK style */
+
+/* CLIENTS style */
+
+/* FOOTER style */
